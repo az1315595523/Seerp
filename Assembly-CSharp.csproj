@@ -60,6 +60,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scenes\LoadScene.cs" />
     <Compile Include="Assets\Scenes\StartScene\StartButton.cs" />
+    <Compile Include="Assets\Scenes\LoadScene\LoadScene.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
