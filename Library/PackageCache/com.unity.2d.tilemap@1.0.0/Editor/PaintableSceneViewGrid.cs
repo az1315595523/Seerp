@@ -67,7 +67,7 @@ namespace UnityEditor.Tilemaps
 
             // Case 1077400: SceneView camera transform changes may update the mouse grid position even though the mouse position has not changed
             var currentSceneViewTransformHash = sceneView.camera.transform.localToWorldMatrix.GetHashCode();
-            UpdateMouseGridPosition(currentSceneViewTransformHash == sceneViewTransformHash);
+            UpdateMouseGridPosition(currentSceneViewTransformHash != sceneViewTransformHash);
             sceneViewTransformHash = currentSceneViewTransformHash;
 
             var dot = 1.0f;

@@ -24,7 +24,7 @@ namespace UnityEditor.Tilemaps
         private void OnEnable()
         {
             // Give focus to Inspector window for keyboard actions
-            EditorWindow.FocusWindowIfItsOpen<InspectorWindow>();
+            EditorApplication.delayCall += () => EditorWindow.FocusWindowIfItsOpen<InspectorWindow>();
         }
 
         public override void OnInspectorGUI()

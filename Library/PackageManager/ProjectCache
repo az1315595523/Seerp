@@ -1,33 +1,33 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: D:/unity/Seer/Packages/manifest.json
+    m_FilePath: D:/34567git/Seerp/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638246721445470614
-    m_Hash: 3266815685
+      ticks: 638247262415436117
+    m_Hash: 3255421221
   m_LockFileStatus:
-    m_FilePath: D:/unity/Seer/Packages/packages-lock.json
+    m_FilePath: D:/34567git/Seerp/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638246721490181434
-    m_Hash: 1746191394
+      ticks: 638247262511680071
+    m_Hash: 1745727877
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: D:/unity/Seer/Packages
-m_EditorVersion: 2022.2.9f1c1 (e8234bf1fd37)
+m_ProjectPath: D:/34567git/Seerp/Packages
+m_EditorVersion: 2022.3.2f1c1 (891eba2b6e38)
 m_ResolvedPackages:
-- packageId: com.unity.collab-proxy@2.0.0
+- packageId: com.unity.collab-proxy@2.0.4
   testable: 0
   isDirectDependency: 1
-  version: 2.0.0
+  version: 2.0.4
   source: 1
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.collab-proxy@2.0.0
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.collab-proxy@2.0.4
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -37,10 +37,9 @@ m_ResolvedPackages:
     url: 
   category: Editor
   type: 
-  description: The Version Control package gives you the ability to use either Collaborate
-    or Plastic SCM for Unity (beta) in the Unity editor. To use Plastic SCM for Unity
-    (beta), a Plastic SCM subscription is required. Learn more about how you can
-    get started for free by visiting plasticscm.com.
+  description: The package gives you the ability to use Unity Version Control in
+    the Unity editor. To use Unity Version Control, a subscription is required. Learn
+    more about how you can get started for free by visiting plasticscm.com.
   status: 0
   errors: []
   versions:
@@ -113,9 +112,6 @@ m_ResolvedPackages:
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
-    - 2.0.0
-    - 2.0.1
-    - 2.0.3
     - 2.0.4
     - 2.0.5
     - 2.1.0-preview.3
@@ -132,6 +128,7 @@ m_ResolvedPackages:
   - collaborate
   - collaboration
   - control
+  - devops
   - plastic
   - plasticscm
   - source
@@ -149,28 +146,28 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638095491550000000
+  datePublishedTicks: 638176024310000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: a1b1151e0c90bc327ea95678473c1f3a935b2c9e
+    revision: dc15ef2ed609e8c19d0525a46c5bf7dd78df8432
     path: 
   unityLifecycle:
-    version: 2.0.0
+    version: 2.0.4
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.feature.2d@1.0.0
+- packageId: com.unity.feature.2d@2.0.0
   testable: 0
   isDirectDependency: 1
-  version: 1.0.0
+  version: 2.0.0
   source: 2
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.feature.2d@1.0.0
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.feature.2d@2.0.0
   assetPath: Packages/com.unity.feature.2d
   name: com.unity.feature.2d
   displayName: 2D
@@ -189,10 +186,10 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 1.0.0
+    - 2.0.0
     compatible:
-    - 1.0.0
-    recommended: 1.0.0
+    - 2.0.0
+    recommended: 2.0.0
     deprecated: []
   dependencies:
   - name: com.unity.2d.animation
@@ -209,9 +206,11 @@ m_ResolvedPackages:
     version: default
   - name: com.unity.2d.tilemap.extras
     version: default
+  - name: com.unity.2d.aseprite
+    version: default
   resolvedDependencies:
   - name: com.unity.2d.animation
-    version: 9.0.1
+    version: 9.0.3
   - name: com.unity.2d.common
     version: 8.0.1
   - name: com.unity.2d.sprite
@@ -229,7 +228,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.animation
     version: 1.0.0
   - name: com.unity.burst
-    version: 1.8.3
+    version: 1.8.4
   - name: com.unity.collections
     version: 1.2.4
   - name: com.unity.test-framework
@@ -241,7 +240,7 @@ m_ResolvedPackages:
   - name: com.unity.2d.psdimporter
     version: 8.0.2
   - name: com.unity.2d.spriteshape
-    version: 9.0.1
+    version: 9.0.2
   - name: com.unity.modules.physics2d
     version: 1.0.0
   - name: com.unity.2d.tilemap
@@ -249,8 +248,10 @@ m_ResolvedPackages:
   - name: com.unity.modules.tilemap
     version: 1.0.0
   - name: com.unity.2d.tilemap.extras
-    version: 3.0.3
+    version: 3.1.0
   - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.2d.aseprite
     version: 1.0.0
   keywords: []
   registry:
@@ -261,7 +262,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -272,19 +273,19 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 2.0.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ide.rider@3.0.18
+- packageId: com.unity.ide.rider@3.0.21
   testable: 0
   isDirectDependency: 1
-  version: 3.0.18
+  version: 3.0.21
   source: 1
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.ide.rider@3.0.18
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.ide.rider@3.0.21
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -338,12 +339,12 @@ m_ResolvedPackages:
     - 3.0.20
     - 3.0.21
     - 3.0.22
+    - 3.0.24
     compatible:
-    - 3.0.18
-    - 3.0.20
     - 3.0.21
     - 3.0.22
-    recommended: 3.0.22
+    - 3.0.24
+    recommended: 3.0.24
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -362,28 +363,28 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638088746970000000
+  datePublishedTicks: 638175749180000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: b40b39e6834c2915637f431d002d1f3dd8ec9ce5
+    revision: bb7732dcafe867368246b7661dda05368b74dd8e
     path: 
   unityLifecycle:
-    version: 3.0.18
+    version: 3.0.21
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ide.visualstudio@2.0.17
+- packageId: com.unity.ide.visualstudio@2.0.18
   testable: 0
   isDirectDependency: 1
-  version: 2.0.17
+  version: 2.0.18
   source: 1
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.ide.visualstudio@2.0.17
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.ide.visualstudio@2.0.18
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -422,7 +423,6 @@ m_ResolvedPackages:
     - 2.0.17
     - 2.0.18
     compatible:
-    - 2.0.17
     - 2.0.18
     recommended: 2.0.18
     deprecated: []
@@ -449,16 +449,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638059987360000000
+  datePublishedTicks: 638173205920000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: 1f126893bfb18ea9661fb15771613e841467073c
+    revision: 9d3c07127cbe1916b8abbfd18f71fb8d9df8008c
     path: 
   unityLifecycle:
-    version: 2.0.17
+    version: 2.0.18
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -470,7 +470,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.1.33
   source: 1
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.test-framework@1.1.33
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.test-framework@1.1.33
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -595,7 +595,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.6
   source: 1
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.textmeshpro@3.0.6
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.textmeshpro@3.0.6
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -767,12 +767,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.timeline@1.7.3
+- packageId: com.unity.timeline@1.7.4
   testable: 0
   isDirectDependency: 1
-  version: 1.7.3
+  version: 1.7.4
   source: 1
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.timeline@1.7.3
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.timeline@1.7.4
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -871,7 +871,6 @@ m_ResolvedPackages:
     - 1.8.3
     - 1.8.4
     compatible:
-    - 1.7.3
     - 1.7.4
     - 1.7.5
     - 1.8.0
@@ -915,16 +914,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638119854890000000
+  datePublishedTicks: 638143790870000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.7/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: f7767cd40a861592dca709fc360e85920c06705c
+    revision: 1f458a5d3f2bc66f0c1182feeaa9fcea4e8b1496
     path: 
   unityLifecycle:
-    version: 1.7.3
+    version: 1.7.4
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -936,7 +935,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.ugui@1.0.0
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.ugui@1.0.0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1006,7 +1005,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.0
   source: 1
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.visualscripting@1.8.0
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.visualscripting@1.8.0
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1100,7 +1099,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.modules.ai@1.0.0
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1155,7 +1154,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1209,7 +1208,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.modules.animation@1.0.0
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -1264,7 +1263,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -1319,7 +1318,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.modules.audio@1.0.0
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -1374,7 +1373,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.modules.cloth@1.0.0
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -1433,7 +1432,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.modules.director@1.0.0
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -1496,7 +1495,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -1552,7 +1551,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.modules.imgui@1.0.0
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -1607,7 +1606,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -1662,7 +1661,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -1717,7 +1716,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.modules.physics@1.0.0
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -1772,7 +1771,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -1827,7 +1826,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -1886,7 +1885,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.modules.terrain@1.0.0
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -1941,7 +1940,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -2004,7 +2003,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -2062,7 +2061,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.modules.ui@1.0.0
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -2117,7 +2116,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.modules.uielements@1.0.0
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -2184,7 +2183,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.modules.umbra@1.0.0
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -2239,7 +2238,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -2302,7 +2301,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -2357,7 +2356,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -2420,7 +2419,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -2483,7 +2482,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -2546,7 +2545,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -2625,7 +2624,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -2684,7 +2683,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.modules.video@1.0.0
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -2751,7 +2750,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.modules.vr@1.0.0
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -2820,7 +2819,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.modules.wind@1.0.0
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -2875,7 +2874,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.modules.xr@1.0.0
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -2942,7 +2941,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -3001,7 +3000,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.6
   source: 1
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.ext.nunit@1.0.6
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.ext.nunit@1.0.6
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -3067,12 +3066,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.2d.animation@9.0.1
+- packageId: com.unity.2d.animation@9.0.3
   testable: 0
   isDirectDependency: 0
-  version: 9.0.1
+  version: 9.0.3
   source: 1
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.2d.animation@9.0.1
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.2d.animation@9.0.3
   assetPath: Packages/com.unity.2d.animation
   name: com.unity.2d.animation
   displayName: 2D Animation
@@ -3203,8 +3202,6 @@ m_ResolvedPackages:
     - 10.0.1
     - 10.0.2
     compatible:
-    - 9.0.1
-    - 9.0.2
     - 9.0.3
     recommended: 9.0.3
     deprecated: []
@@ -3237,7 +3234,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.animation
     version: 1.0.0
   - name: com.unity.burst
-    version: 1.8.3
+    version: 1.8.4
   - name: com.unity.collections
     version: 1.2.4
   - name: com.unity.test-framework
@@ -3257,16 +3254,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638029769620000000
-  documentationUrl: 
+  datePublishedTicks: 638191394980000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.animation@9.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 6fc635d83d4bb0b2640893b8d4a0f3934044aeb5
+    revision: 7d8e0c5910334b5bcf7795fe32bcde0a11d57109
     path: 
   unityLifecycle:
-    version: 9.0.1
+    version: 9.0.3
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -3278,7 +3275,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 5.0.3
   source: 1
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.2d.pixel-perfect@5.0.3
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.2d.pixel-perfect@5.0.3
   assetPath: Packages/com.unity.2d.pixel-perfect
   name: com.unity.2d.pixel-perfect
   displayName: 2D Pixel Perfect
@@ -3361,7 +3358,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 8.0.2
   source: 1
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.2d.psdimporter@8.0.2
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.2d.psdimporter@8.0.2
   assetPath: Packages/com.unity.2d.psdimporter
   name: com.unity.2d.psdimporter
   displayName: 2D PSD Importer
@@ -3462,7 +3459,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.animation
-    version: 9.0.1
+    version: 9.0.3
   - name: com.unity.2d.common
     version: 8.0.1
   - name: com.unity.2d.sprite
@@ -3480,7 +3477,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.animation
     version: 1.0.0
   - name: com.unity.burst
-    version: 1.8.3
+    version: 1.8.4
   - name: com.unity.collections
     version: 1.2.4
   - name: com.unity.test-framework
@@ -3522,7 +3519,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.2d.sprite@1.0.0
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.2d.sprite@1.0.0
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -3575,12 +3572,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.2d.spriteshape@9.0.1
+- packageId: com.unity.2d.spriteshape@9.0.2
   testable: 0
   isDirectDependency: 0
-  version: 9.0.1
+  version: 9.0.2
   source: 1
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.2d.spriteshape@9.0.1
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.2d.spriteshape@9.0.2
   assetPath: Packages/com.unity.2d.spriteshape
   name: com.unity.2d.spriteshape
   displayName: 2D SpriteShape
@@ -3679,7 +3676,6 @@ m_ResolvedPackages:
     - 10.0.0
     - 10.0.1
     compatible:
-    - 9.0.1
     - 9.0.2
     recommended: 9.0.2
     deprecated: []
@@ -3708,7 +3704,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.animation
     version: 1.0.0
   - name: com.unity.burst
-    version: 1.8.3
+    version: 1.8.4
   - name: com.unity.modules.physics2d
     version: 1.0.0
   keywords:
@@ -3728,16 +3724,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638029769690000000
-  documentationUrl: 
+  datePublishedTicks: 638150103540000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.spriteshape@9.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 6fc635d83d4bb0b2640893b8d4a0f3934044aeb5
+    revision: ff926a6d093212af31bc3c835f61abfbb1b3f163
     path: 
   unityLifecycle:
-    version: 9.0.1
+    version: 9.0.2
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -3749,7 +3745,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.2d.tilemap@1.0.0
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.2d.tilemap@1.0.0
   assetPath: Packages/com.unity.2d.tilemap
   name: com.unity.2d.tilemap
   displayName: 2D Tilemap Editor
@@ -3817,12 +3813,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.2d.tilemap.extras@3.0.3
+- packageId: com.unity.2d.tilemap.extras@3.1.0
   testable: 0
   isDirectDependency: 0
-  version: 3.0.3
+  version: 3.1.0
   source: 1
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.2d.tilemap.extras@3.0.3
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.2d.tilemap.extras@3.1.0
   assetPath: Packages/com.unity.2d.tilemap.extras
   name: com.unity.2d.tilemap.extras
   displayName: 2D Tilemap Extras
@@ -3885,10 +3881,9 @@ m_ResolvedPackages:
     - 4.0.0
     - 4.0.1
     compatible:
-    - 3.0.3
     - 3.1.0
     - 3.1.1
-    recommended: 3.0.3
+    recommended: 3.1.1
     deprecated: []
   dependencies:
   - name: com.unity.modules.tilemap
@@ -3928,68 +3923,86 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638067518790000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@3.0/manual/index.html
+  datePublishedTicks: 638150103590000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@3.1/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/2d-extras.git
-    revision: 78bbbfd9a60bd0618c0d4f3b105d861211da2f22
+    revision: 0619ff5c155088e4a8530c994129cd798bcfd97f
     path: 
   unityLifecycle:
-    version: 3.0.3
+    version: 3.1.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.mathematics@1.2.6
+- packageId: com.unity.2d.aseprite@1.0.0
   testable: 0
   isDirectDependency: 0
-  version: 1.2.6
+  version: 1.0.0
   source: 1
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.mathematics@1.2.6
-  assetPath: Packages/com.unity.mathematics
-  name: com.unity.mathematics
-  displayName: Mathematics
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.2d.aseprite@1.0.0
+  assetPath: Packages/com.unity.2d.aseprite
+  name: com.unity.2d.aseprite
+  displayName: 2D Aseprite Importer
   author:
     name: 
     email: 
     url: 
-  category: 
+  category: 2D
   type: 
-  description: Unity's C# SIMD math library providing vector types and math functions
-    with a shader like syntax.
+  description: 2D Aseprite Importer is a package which enables the import of .aseprite
+    files from the Pixel Art tool Aseprite.
   status: 0
   errors: []
   versions:
     all:
-    - 0.0.12-preview.2
-    - 0.0.12-preview.5
-    - 0.0.12-preview.8
-    - 0.0.12-preview.10
-    - 0.0.12-preview.11
-    - 0.0.12-preview.13
-    - 0.0.12-preview.17
-    - 0.0.12-preview.19
-    - 0.0.12-preview.20
-    - 1.0.0-preview.1
-    - 1.0.1
-    - 1.1.0-preview.1
-    - 1.1.0
-    - 1.2.1
-    - 1.2.4
-    - 1.2.5
-    - 1.2.6
+    - 1.0.0-pre.1
+    - 1.0.0-pre.2
+    - 1.0.0-pre.3
+    - 1.0.0-pre.4
+    - 1.0.0
     compatible:
-    - 1.2.6
-    recommended: 1.2.6
+    - 1.0.0
+    recommended: 1.0.0
     deprecated: []
-  dependencies: []
-  resolvedDependencies: []
+  dependencies:
+  - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.2d.common
+    version: 6.0.6
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.2d.common
+    version: 8.0.1
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.burst
+    version: 1.8.4
   keywords:
-  - unity
+  - 2d
+  - Aseprite
+  - Pixel
+  - Art
+  - assetimporter
   registry:
     id: main
     name: 
@@ -4000,16 +4013,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637841876140000000
-  documentationUrl: 
+  datePublishedTicks: 638203510100000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.aseprite@1.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
-    url: https://github.com/Unity-Technologies/Unity.Mathematics.git
-    revision: f110c8c230d253654afed153569030a587cc7557
+    url: https://github.cds.internal.unity3d.com/unity/AsepriteImporter.git
+    revision: 419b070b489a77cf611d9d4ebff29eed4ef0bea7
     path: 
   unityLifecycle:
-    version: 1.2.6
+    version: 1.0.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -4021,7 +4034,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 8.0.1
   source: 1
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.2d.common@8.0.1
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.2d.common@8.0.1
   assetPath: Packages/com.unity.2d.common
   name: com.unity.2d.common
   displayName: 2D Common
@@ -4117,7 +4130,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.animation
     version: 1.0.0
   - name: com.unity.burst
-    version: 1.8.3
+    version: 1.8.4
   keywords:
   - 2d
   registry:
@@ -4146,12 +4159,84 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+- packageId: com.unity.mathematics@1.2.6
+  testable: 0
+  isDirectDependency: 0
+  version: 1.2.6
+  source: 1
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.mathematics@1.2.6
+  assetPath: Packages/com.unity.mathematics
+  name: com.unity.mathematics
+  displayName: Mathematics
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Unity's C# SIMD math library providing vector types and math functions
+    with a shader like syntax.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.0.12-preview.2
+    - 0.0.12-preview.5
+    - 0.0.12-preview.8
+    - 0.0.12-preview.10
+    - 0.0.12-preview.11
+    - 0.0.12-preview.13
+    - 0.0.12-preview.17
+    - 0.0.12-preview.19
+    - 0.0.12-preview.20
+    - 1.0.0-preview.1
+    - 1.0.1
+    - 1.1.0-preview.1
+    - 1.1.0
+    - 1.2.1
+    - 1.2.4
+    - 1.2.5
+    - 1.2.6
+    compatible:
+    - 1.2.6
+    recommended: 1.2.6
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.cn
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637841876140000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/Unity.Mathematics.git
+    revision: f110c8c230d253654afed153569030a587cc7557
+    path: 
+  unityLifecycle:
+    version: 1.2.6
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.collections@1.2.4
   testable: 0
   isDirectDependency: 0
   version: 1.2.4
   source: 1
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.collections@1.2.4
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.collections@1.2.4
   assetPath: Packages/com.unity.collections
   name: com.unity.collections
   displayName: Collections
@@ -4232,6 +4317,9 @@ m_ResolvedPackages:
     - 2.1.0-pre.6
     - 2.1.0-pre.11
     - 2.1.0-pre.18
+    - 2.1.1
+    - 2.1.4
+    - 2.2.0
     recommended: 1.2.4
     deprecated: []
   dependencies:
@@ -4241,7 +4329,7 @@ m_ResolvedPackages:
     version: 1.1.31
   resolvedDependencies:
   - name: com.unity.burst
-    version: 1.8.3
+    version: 1.8.4
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.test-framework
@@ -4276,18 +4364,18 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.2.4
-    nextVersion: 2.1.0-pre.6
+    nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.burst@1.8.3
+- packageId: com.unity.burst@1.8.4
   testable: 0
   isDirectDependency: 0
-  version: 1.8.3
+  version: 1.8.4
   source: 1
-  resolvedPath: D:\unity\Seer\Library\PackageCache\com.unity.burst@1.8.3
+  resolvedPath: D:\34567git\Seerp\Library\PackageCache\com.unity.burst@1.8.4
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -4426,7 +4514,6 @@ m_ResolvedPackages:
     - 1.8.4
     - 1.8.7
     compatible:
-    - 1.8.3
     - 1.8.4
     - 1.8.7
     recommended: 1.8.7
@@ -4448,16 +4535,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638112786110000000
+  datePublishedTicks: 638150963640000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: git@github.cds.internal.unity3d.com:unity/burst
-    revision: fd494a093a254696a2158a7b231d6b5b80549261
+    revision: b05f7d57a035997c1abc0c742e812dadd107d467
     path: 
   unityLifecycle:
-    version: 1.8.3
+    version: 1.8.4
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0

@@ -44,6 +44,9 @@ UnityEditor
 GridBrushEditor
 GridBrushEditorBase
 GridSelection
+AnimatedTileEditor
+UnityEngine
+Tilemaps
 PopulateRuleOverideTileWizard
 UnityEditor
 AdvancedRuleOverrideTile
