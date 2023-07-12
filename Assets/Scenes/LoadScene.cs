@@ -4,62 +4,69 @@ using UnityEngine;
 using UnityEngine.UI;
 public class LoadScene : MonoBehaviour
 {
-    public Image image1;
-    public Image image2;
-    public float fadeDuration = 1f; // 淡入淡出的持续时间
-
-    private Coroutine fadeCoroutine;
+    public Image tip1Image;
+    public Image tip2Image;
+    public float fadeDuration = 1f;
+    public float delayBetweenTips = 2f;
 
     private void Start()
     {
-        // 开始淡入淡出效果
-        StartFadeInOut();
+        // 开始循环渐变效果
+
+        tip1Image.color = new Color(tip1Image.color.r, tip1Image.color.g, tip1Image.color.b, 0f);
+        tip2Image.color = new Color(tip2Image.color.r, tip2Image.color.g, tip2Image.color.b, 0f);
+
+        StartCoroutine(AnimateTips());
     }
 
-    public void StartFadeInOut()
+    private System.Collections.IEnumerator AnimateTips()
     {
-        if (fadeCoroutine != null)
+        while (true)
         {
-            StopCoroutine(fadeCoroutine);
+            // Tip1 登入
+            yield return FadeIn(tip1Image);
+            yield return new WaitForSeconds(delayBetweenTips);
+
+            // Tip1 登出
+            yield return FadeOut(tip1Image);
+
+            // Tip2 登入
+            yield return FadeIn(tip2Image);
+            yield return new WaitForSeconds(delayBetweenTips);
+
+            // Tip2 登出
+            yield return FadeOut(tip2Image);
         }
-
-        fadeCoroutine = StartCoroutine(FadeInOut());
     }
 
-    private IEnumerator FadeInOut()
+    private System.Collections.IEnumerator FadeIn(Image image)
     {
-        // 将图像2完全透明
-        image2.color = new Color(image2.color.r, image2.color.g, image2.color.b, 0f);
-
-        // 淡入图像1
-        yield return StartCoroutine(FadeImage(image1, 0f, 1f));
-
-        // 淡出图像1
-        yield return StartCoroutine(FadeImage(image1, 1f, 0f));
-
-        // 淡入图像2
-        yield return StartCoroutine(FadeImage(image2, 0f, 1f));
-
-        // 淡出图像2
-        yield return StartCoroutine(FadeImage(image2, 1f, 0f));
-    }
-
-    private IEnumerator FadeImage(Image image, float startAlpha, float endAlpha)
-    {
+        float timer = 0f;
         Color startColor = image.color;
-        Color endColor = new Color(startColor.r, startColor.g, startColor.b, endAlpha);
-
-        float elapsedTime = 0f;
-
-        while (elapsedTime < fadeDuration)
+        Color targetColor = new Color(startColor.r, startColor.g, startColor.b, 1f);
+        while (timer < fadeDuration)
         {
-            elapsedTime += Time.deltaTime;
-            float t = Mathf.Clamp01(elapsedTime / fadeDuration);
-            image.color = Color.Lerp(startColor, endColor, t);
+            timer += Time.deltaTime;
+            float alpha = Mathf.Lerp(startColor.a, targetColor.a, timer / fadeDuration);
+            image.color = new Color(startColor.r, startColor.g, startColor.b, alpha);
             yield return null;
         }
+        image.color = targetColor;
+    }
 
-        image.color = endColor;
+    private System.Collections.IEnumerator FadeOut(Image image)
+    {
+        float timer = 0f;
+        Color startColor = image.color;
+        Color targetColor = new Color(startColor.r, startColor.g, startColor.b, 0f);
+        while (timer < fadeDuration)
+        {
+            timer += Time.deltaTime;
+            float alpha = Mathf.Lerp(startColor.a, targetColor.a, timer / fadeDuration);
+            image.color = new Color(startColor.r, startColor.g, startColor.b, alpha);
+            yield return null;
+        }
+        image.color = targetColor;
     }
     void Update()
     {
