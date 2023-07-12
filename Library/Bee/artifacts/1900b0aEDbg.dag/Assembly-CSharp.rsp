@@ -371,7 +371,7 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
 -analyzer:"D:/unity/2022.2.9f1c1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/unity/2022.2.9f1c1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Assets/Scenes/LoadScene.cs"
+"Assets/Scenes/LoadScene/LoadScene.cs"
 -langversion:9.0
 
 /deterministic

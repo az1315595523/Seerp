@@ -1235,3 +1235,346 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\unity\Seer\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\unity\Seer\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.673 seconds
+Refreshing native plugins compatible for Editor in 3.34 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.047 seconds
+Domain Reload Profiling:
+	ReloadAssembly (209ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		LoadAllAssembliesAndSetupDomain (462ms)
+			LoadAssemblies (251ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (263ms)
+				TypeCache.Initialize (259ms)
+					TypeCache.ScanAssembly (253ms)
+				ResolveRequiredComponents (4ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (580ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (423ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 5.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3936 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (224.2 KB). Loaded Objects now: 4453.
+Memory consumption went from 0.59 GB to 0.59 GB.
+Total: 3.316700 ms (FindLiveObjects: 0.301100 ms CreateObjectMapping: 0.124500 ms MarkObjects: 2.701900 ms  DeleteObjects: 0.188000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\unity\Seer\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\unity\Seer\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.661 seconds
+Refreshing native plugins compatible for Editor in 3.02 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.041 seconds
+Domain Reload Profiling:
+	ReloadAssembly (192ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		LoadAllAssembliesAndSetupDomain (467ms)
+			LoadAssemblies (286ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (236ms)
+				TypeCache.Initialize (233ms)
+					TypeCache.ScanAssembly (227ms)
+				ResolveRequiredComponents (3ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (615ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (435ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 5.41 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3936 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (224.2 KB). Loaded Objects now: 4456.
+Memory consumption went from 0.59 GB to 0.59 GB.
+Total: 3.615200 ms (FindLiveObjects: 0.323000 ms CreateObjectMapping: 0.137100 ms MarkObjects: 2.919100 ms  DeleteObjects: 0.234700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4117.391586 seconds.
+  path: Assets/Scenes/LoadScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/LoadScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2518d33b38f0b9e8ddf9a6732d78803') in 0.084240 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/res/Scene/StartScene/StartScene.png
+  artifactKey: Guid(1c04f5ef481e2fa46bfd9469991bfeaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/res/Scene/StartScene/StartScene.png using Guid(1c04f5ef481e2fa46bfd9469991bfeaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2994c0c50a35d617a1bf26308a9b770d') in 0.082076 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/res/map/Kalan/4-1.png
+  artifactKey: Guid(89373e9611847524887088bfd70c6f82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/res/map/Kalan/4-1.png using Guid(89373e9611847524887088bfd70c6f82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9ab1b64759b09228d164da1a288cceb5') in 0.049105 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/res/map/Panuo/2-1.png
+  artifactKey: Guid(7f3016f36ef7da640a5b209d1ccf8a62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/res/map/Panuo/2-1.png using Guid(7f3016f36ef7da640a5b209d1ccf8a62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e10554e0bae5e99426704406454d66f') in 0.048309 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/res/Scene/StartScene/lightCircle.png
+  artifactKey: Guid(12a6e757a626e64498fbd430b4825dee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/res/Scene/StartScene/lightCircle.png using Guid(12a6e757a626e64498fbd430b4825dee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '926509fcd536409313d7002fb2893ed4') in 0.028006 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/res/map/map.png
+  artifactKey: Guid(c3e0abb75f83e0f48a5ccf924e296f54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/res/map/map.png using Guid(c3e0abb75f83e0f48a5ccf924e296f54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cde5beacae732cd1fd0e17708d0bb210') in 0.023876 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/res/map/Kalan/3-2.png
+  artifactKey: Guid(583e6eedb0838c943b90951ee8f393d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/res/map/Kalan/3-2.png using Guid(583e6eedb0838c943b90951ee8f393d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '586aedbb7fbf5b4954033aa9fd5bbf64') in 0.022096 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/res/Scene/ChooseScene/meteor.gif
+  artifactKey: Guid(2cd7f588ec4cbd74ca77f3251d68a0ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/res/Scene/ChooseScene/meteor.gif using Guid(2cd7f588ec4cbd74ca77f3251d68a0ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e025d6b87de4299e76521bc1ee53369') in 0.046531 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/res/map/Panuo/1-2.png
+  artifactKey: Guid(ad7ee357d1588004c981faf1f2e1c2ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/res/map/Panuo/1-2.png using Guid(ad7ee357d1588004c981faf1f2e1c2ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7caf1fad47f098b70b6eef36373e2381') in 0.045150 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/res/Scene/StartScene/startButton_clicked.png
+  artifactKey: Guid(d39f252029085a24a80c5e786d065e7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/res/Scene/StartScene/startButton_clicked.png using Guid(d39f252029085a24a80c5e786d065e7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'beda7e319d0fc58a7f83f392a44197d2') in 0.020860 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/res/map/Panuo/6-1.png
+  artifactKey: Guid(bf96f75c1ab417e4da8242764f2dbaa1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/res/map/Panuo/6-1.png using Guid(bf96f75c1ab417e4da8242764f2dbaa1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c62574d6d08d76350745a425655d888a') in 0.024705 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/res/map/Panuo/3-1.png
+  artifactKey: Guid(e91db37cfe699fd419614493e7cb6932) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/res/map/Panuo/3-1.png using Guid(e91db37cfe699fd419614493e7cb6932) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e72c7373546f18f5176aeaefbe2391ed') in 0.019552 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/res/map/Panuo/3-2.png
+  artifactKey: Guid(b011c1f0a6ac5a04da46e785922fa94d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/res/map/Panuo/3-2.png using Guid(b011c1f0a6ac5a04da46e785922fa94d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6cb8a08035fefd904f3553c83ab80413') in 0.029489 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/res/map/Panuo/3-3.png
+  artifactKey: Guid(8b4a4d7c91f9cf940bcdf3001b10828a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/res/map/Panuo/3-3.png using Guid(8b4a4d7c91f9cf940bcdf3001b10828a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '82f0fa4ee694e953603fd6090d2034d7') in 0.024657 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/res/Scene/LoadScene/tip2.png
+  artifactKey: Guid(2185b6cf011a04d428f7f477f7edb4ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/res/Scene/LoadScene/tip2.png using Guid(2185b6cf011a04d428f7f477f7edb4ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f7675f7fbd4d234e326662f424e790bf') in 0.024278 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/res/map/Kalan/3-3.png
+  artifactKey: Guid(3ec75aa5eec8b254d9cd35e2195a67d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/res/map/Kalan/3-3.png using Guid(3ec75aa5eec8b254d9cd35e2195a67d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c37cf1aa8f9566e10347abc3cf11168') in 0.023766 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/res/map/Kalan/4-3.png
+  artifactKey: Guid(6649a797cce53ce438b204cf11a83993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/res/map/Kalan/4-3.png using Guid(6649a797cce53ce438b204cf11a83993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d1ec324053483f4ef16eec060ff9d4a') in 0.026454 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/res/map/Kalan/5-3.png
+  artifactKey: Guid(1a1d44dacabadd84f84de3acc93099d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/res/map/Kalan/5-3.png using Guid(1a1d44dacabadd84f84de3acc93099d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '31317b8254af0f52a4a5440fc43a7205') in 0.024546 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/res/map/Panuo/1-1.png
+  artifactKey: Guid(bab0c1bb2e3ea8f4ea9d3e144691359e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/res/map/Panuo/1-1.png using Guid(bab0c1bb2e3ea8f4ea9d3e144691359e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca42e979e8b1c6dc5f16069e28fb93fb') in 0.020010 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/res/map/Panuo/2-2.png
+  artifactKey: Guid(9ff111cb998f4d64aaa6bca78dd77fcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/res/map/Panuo/2-2.png using Guid(9ff111cb998f4d64aaa6bca78dd77fcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb1add238456950305607c8435ba4591') in 0.048014 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/res/Scene/ChooseScene/infiniteButton.png
+  artifactKey: Guid(775f8f2b1bcf1e6458850ba00f6e1fe3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/res/Scene/ChooseScene/infiniteButton.png using Guid(775f8f2b1bcf1e6458850ba00f6e1fe3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '38cbb8c6fb95a7532634adbf29396828') in 0.024100 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/res/Scene/StartScene/startButton.png
+  artifactKey: Guid(13f3b88f6dc3cc54489a8d94586ffcf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/res/Scene/StartScene/startButton.png using Guid(13f3b88f6dc3cc54489a8d94586ffcf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c39dc54c144eba31fc134783a3afb6f0') in 0.022319 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (196.0 KB). Loaded Objects now: 4456.
+Memory consumption went from 70.9 MB to 70.7 MB.
+Total: 8.705800 ms (FindLiveObjects: 0.728100 ms CreateObjectMapping: 0.772600 ms MarkObjects: 6.799500 ms  DeleteObjects: 0.403800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 由于线程退出或应用程序请求，已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

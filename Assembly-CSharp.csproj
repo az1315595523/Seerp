@@ -58,7 +58,7 @@
     <Analyzer Include="D:\unity\2022.2.9f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scenes\LoadScene.cs" />
+    <Compile Include="Assets\Scenes\LoadScene\LoadScene.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
